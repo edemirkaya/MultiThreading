@@ -47,15 +47,14 @@
             // 
             // lbMessage
             // 
-            this.lbMessage.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.lbMessage.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.lbMessage.BackColor = System.Drawing.SystemColors.Control;
             this.lbMessage.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbMessage.ForeColor = System.Drawing.SystemColors.InactiveBorder;
+            this.lbMessage.ForeColor = System.Drawing.SystemColors.ControlText;
             this.lbMessage.FormattingEnabled = true;
             this.lbMessage.ItemHeight = 20;
-            this.lbMessage.Location = new System.Drawing.Point(0, 306);
+            this.lbMessage.Location = new System.Drawing.Point(12, 346);
             this.lbMessage.Name = "lbMessage";
-            this.lbMessage.Size = new System.Drawing.Size(800, 144);
+            this.lbMessage.Size = new System.Drawing.Size(800, 124);
             this.lbMessage.TabIndex = 0;
             // 
             // btnListMailTasks
@@ -63,7 +62,7 @@
             this.btnListMailTasks.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnListMailTasks.Location = new System.Drawing.Point(0, 0);
             this.btnListMailTasks.Name = "btnListMailTasks";
-            this.btnListMailTasks.Size = new System.Drawing.Size(800, 36);
+            this.btnListMailTasks.Size = new System.Drawing.Size(845, 36);
             this.btnListMailTasks.TabIndex = 1;
             this.btnListMailTasks.Text = "List Mail Tasks";
             this.btnListMailTasks.UseVisualStyleBackColor = true;
@@ -80,8 +79,7 @@
             this.secondDataGridViewTextBoxColumn,
             this.NextRunning});
             this.dataGridView1.DataSource = this.mailTaskBindingSource;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 104);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 104);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -112,7 +110,7 @@
             this.btnRunTask.Enabled = false;
             this.btnRunTask.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRunTask.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnRunTask.Location = new System.Drawing.Point(0, 61);
+            this.btnRunTask.Location = new System.Drawing.Point(12, 61);
             this.btnRunTask.Name = "btnRunTask";
             this.btnRunTask.Size = new System.Drawing.Size(99, 37);
             this.btnRunTask.TabIndex = 3;
@@ -126,7 +124,7 @@
             this.btnStartTask.Enabled = false;
             this.btnStartTask.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnStartTask.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnStartTask.Location = new System.Drawing.Point(105, 61);
+            this.btnStartTask.Location = new System.Drawing.Point(117, 61);
             this.btnStartTask.Name = "btnStartTask";
             this.btnStartTask.Size = new System.Drawing.Size(99, 37);
             this.btnStartTask.TabIndex = 3;
@@ -140,7 +138,7 @@
             this.btnStopTask.Enabled = false;
             this.btnStopTask.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnStopTask.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnStopTask.Location = new System.Drawing.Point(210, 61);
+            this.btnStopTask.Location = new System.Drawing.Point(222, 61);
             this.btnStopTask.Name = "btnStopTask";
             this.btnStopTask.Size = new System.Drawing.Size(99, 37);
             this.btnStopTask.TabIndex = 3;
@@ -185,7 +183,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(845, 507);
             this.Controls.Add(this.btnStopTask);
             this.Controls.Add(this.btnStartTask);
             this.Controls.Add(this.btnRunTask);

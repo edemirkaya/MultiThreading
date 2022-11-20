@@ -14,7 +14,7 @@ namespace MailCourier.MailProvider
         {
             //SEND EMAIL
             await Task.Delay(10);
-            LogManager.Default.Log($"Smtp has send to{mailobject.To}");
+            LogManager.Default.Log($"Smtp has send to {mailobject.To}");
         }
     }
 }
